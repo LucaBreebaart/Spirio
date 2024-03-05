@@ -9,8 +9,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 // Pages
-import { createPage } from './pages/create-your-own/create';
-import { homePage } from './pages/home/home';
+import { CreatePage } from './pages/create-your-own/create.component';
+import { HomePage } from './pages/home/home';
 
 
 @Component({
@@ -18,11 +18,11 @@ import { homePage } from './pages/home/home';
   standalone: true,
   imports: [RouterOutlet, TestComponent, PageNotFoundComponent,
   RouterLink, RouterLinkActive, MatToolbarModule, MatButtonModule, MatIconModule, //import any components
-  createPage, homePage ], //import pages
+  CreatePage, HomePage ], //import pages
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'luca';
+  title = '';
 }
 
