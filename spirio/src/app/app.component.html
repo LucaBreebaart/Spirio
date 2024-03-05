@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- import fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nothing+You+Could+Do&display=swap"
+    rel="stylesheet">
+  <!--  -->
+</head>
+
+<body class="body">
+
+  <nav class="navbar-section">
+    <div class="navbar-container-top">
+      <a href="#" class="login-link">Sign Up</a>
+      <a href="#" class="login-link">Log In</a>
+    </div>
+  </nav>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="container">
+        <div class="navbar-wrapper">
+          <a href="#">
+            <h1 class="navbar-logo">Spirio</h1>
+          </a>
+          <nav role="navigation" class="nav-menu-wrapper">
+            <ul role="list" class="nav-menu-two">
+              <li>
+                <a href="index.html" aria-current="page" class="nav-link current">Home</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Shop All</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Mens</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Womens</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Create</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="navbar-location">
+            <div data-hover="false" data-delay="0" class="dropdown">
+              <div class="navbar-dropdown dropdown-toggle">
+                <div class="icon-dropdown-toggle"></div>
+                <div>Location</div>
+              </div>
+              <nav class="dropdown-list dropdown-list">
+                <a href="#" class="dropdown-link">Pretoria</a>
+                <a href="#" class="dropdown-link">Durban</a>
+                <a href="#" class="dropdown-link">Cape Town</a>
+              </nav>
+            </div>
+            <a href="#"><img
+                src="https://e7.pngegg.com/pngimages/833/426/png-clipart-black-shopping-cart-icon-for-free-black-shopping-cart.png"
+                loading="lazy" alt="" class="navbar-cart"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet>
+
+
+  </router-outlet>
+
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="layout-grid footer-grid">
+        <div>
+          <h1 class="logo-footer">SPIRIO</h1>
+        </div>
+        <div id="column-1" class="footer-grid-wrapper">
+          <h3>infoSpirio.co.za</h3>
+          <a href="#" class="footer-links">+27 12 397 9171</a>
+          <a href="#" class="footer-links">+27 12 397 9171</a>
+        </div>
+        <div id="column-2" class="footer-grid-wrapper">
+          <h2>Menu</h2>
+          <a href="#" class="footer-links">Home</a>
+          <a href="#" class="footer-links">Mens</a>
+          <a href="#" class="footer-links">Womens</a>
+          <a href="#" class="footer-links">Create Your Own</a>
+        </div>
+        <div id="column-3" class="footer-grid-wrapper">
+          <h2>Locations</h2>
+          <a href="#" class="footer-links">Pretoria</a>
+          <a href="#" class="footer-links">Durban</a>
+          <a href="#" class="footer-links">Cape Town</a>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer-foot">
+        <a href="#" class="footer-links">© Copyright 2024 Spirio. All rights reserved.</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
