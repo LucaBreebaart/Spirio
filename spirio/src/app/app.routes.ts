@@ -3,15 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { PageNotFoundComponent } from './components/page-not-found/404';
 import { TestComponent } from './components/test/test.component';
-import { InventoryComponent } from './components/inventory/inventory.component';
-import { CraftingComponent } from './components/crafting/crafting.component';
+
+// Pages
+import { createPage } from './pages/create-your-own/create';
+import { homePage } from './pages/home/home';
 
 export const routes: Routes = [
 
-  { path: 'crafting', component: CraftingComponent },
-  { path: 'inventory', component: InventoryComponent },
   { path: 'test', component: TestComponent },
-  {path: '', redirectTo: "inventory", pathMatch:"full"},
+  { path : '', component: homePage},
+  { path : 'create-your-own', component: createPage},
+  {path: '', redirectTo: 'home', pathMatch:'full' },
   {path: "**", component: PageNotFoundComponent}
 
 ];
