@@ -28,6 +28,7 @@ h4,
 h5,
 h6 {
     font-weight: bold;
+    margin: 0;
 }
 
 h1 {
@@ -93,7 +94,7 @@ h6 {
 
 .navbar {
     z-index: 1000;
-    position: sticky;
+    position: relative;
     top: 0;
 }
 
@@ -132,9 +133,10 @@ h6 {
     border-radius: 15px;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 0px;
     display: flex;
-    padding-left: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     list-style: none;
 }
 
@@ -197,7 +199,7 @@ h6 {
 }
 
 .navbar-location {
-    height: auto;
+    height: 50px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     background-color: var(--white);
