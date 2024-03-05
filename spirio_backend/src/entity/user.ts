@@ -13,4 +13,5 @@ export class user {
 
     @Column({ length: 3 })
     years: number = 1
+
 }
