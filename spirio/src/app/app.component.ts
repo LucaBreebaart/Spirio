@@ -12,13 +12,18 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { CreatePage } from './pages/create-your-own/create.component';
 import { HomePage } from './pages/home/home';
 
+// Components
+
+import { NavbarCompnent } from './components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, TestComponent, PageNotFoundComponent,
   RouterLink, RouterLinkActive, MatToolbarModule, MatButtonModule, MatIconModule, //import any components
-  CreatePage, HomePage ], //import pages
+  CreatePage, HomePage,//import pages
+  NavbarCompnent, //import components
+], 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

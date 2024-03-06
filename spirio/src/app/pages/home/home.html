@@ -18,53 +18,11 @@
                     ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
             </div>
             <div class="featured-wrapper">
-
-                <a href="#" class="featured-card"><img src="../../../assets/images/featured-image.png" loading="lazy"
-                        alt="" class="featured-image">
-                    <div class="featured-card-heading">Womens</div>
-                    <div class="featured-card-preice">R599</div>
-                </a>
-
-                <a href="#" class="featured-card"><img src="../../../assets/images/featured-image.png" loading="lazy"
-                        alt="" class="featured-image">
-                    <div class="featured-card-heading">Womens</div>
-                    <div class="featured-card-preice">R599</div>
-                </a>
-
-                <a href="#" class="featured-card"><img src="../../../assets/images/featured-image.png" loading="lazy"
-                        alt="" class="featured-image">
-                    <div class="featured-card-heading">Womens</div>
-                    <div class="featured-card-preice">R599</div>
-                </a>
-
-                <a href="#" class="featured-card"><img src="../../../assets/images/featured-image.png" loading="lazy"
-                        alt="" class="featured-image">
-                    <div class="featured-card-heading">Womens</div>
-                    <div class="featured-card-preice">R599</div>
-                </a>
-
-                <a href="#" class="featured-card"><img src="../../../assets/images/featured-image.png" loading="lazy"
-                        alt="" class="featured-image">
-                    <div class="featured-card-heading">Womens</div>
-                    <div class="featured-card-preice">R599</div>
-                </a>
-
-
-                <a href="#" class="featured-card"><img src="../../../assets/images/featured-image.png" loading="lazy"
-                        alt="" class="featured-image">
-                    <div class="featured-card-heading">Womens</div>
-                    <div class="featured-card-preice">R599</div>
-                </a>
-
-                <a href="#" class="featured-card"><img src="../../../assets/images/featured-image.png" loading="lazy"
-                        alt="" class="featured-image">
-                    <div class="featured-card-heading">Womens</div>
-                    <div class="featured-card-preice">R599</div>
-                </a>
-
+                <product-card [items]="items"></product-card>
             </div>
         </div>
     </section>
+
     <section class="product-section">
         <div class=" product-container">
             <div class="section-header-text">Products</div>
@@ -107,21 +65,9 @@
             </a>
         </div>
     </section>
-    <section class="customise-section">
-        <div class=" customise-container w-container">
-            <img src="../../../assets/images/customise_2.png" loading="lazy" alt="" class="customise-image _3">
-            <img src="../../../assets/images/customise_4.png" loading="lazy" alt="" class="customise-image _4">
-            <img src="../../../assets/images/customise_3.png" loading="lazy" alt="" class="customise-image _2">
-            <img src="../../../assets/images/customise_1.png" loading="lazy" alt="" class="customise-image">
-            <div class="customise-heading-wrapper">
-                <h1 class="customise-heading">Customise your own</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                <a href="#" class="secondary-btn ">
-                    <div>Start</div>
-                </a>
-            </div>
-        </div>
-    </section>
+
+    <create-your-own></create-your-own>
+
     <section class="locations-section">
         <div class=" locations-container">
             <div class="location-wrapper">
