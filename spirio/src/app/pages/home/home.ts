@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CreateComponent } from '../../components/create-your-own/create.component';
 import { productCard } from '../../components/productCard/productCard.component';
-
+import { LocationsComponent } from '../../components/locations/locations.component';
 
 
 @Component({
@@ -9,7 +9,7 @@ import { productCard } from '../../components/productCard/productCard.component'
   standalone: true,
   imports: [
 
-    CreateComponent, productCard
+    CreateComponent, productCard, LocationsComponent
     //import components
   ],
   templateUrl: './home.html',
