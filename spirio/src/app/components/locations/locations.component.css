@@ -76,3 +76,7 @@
     left: auto;
     right: 5%;
 }
+
+.products-p {
+    max-width: 550px;
+}

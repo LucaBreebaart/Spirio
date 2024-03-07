@@ -19,6 +19,7 @@ export class HomePage {
   items = [
     { price: 599, name: 'Product 1' },
     { price: 799, name: 'Product 2' },
+    { price: 499, name: 'Product 3' },
     // Add more items as needed
   ];
 }

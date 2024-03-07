@@ -16,6 +16,7 @@ import { ShopPage } from './pages/shop/shop.component';
 // Components
 
 import { NavbarCompnent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,7 @@ import { NavbarCompnent } from './components/navbar/navbar.component';
   imports: [RouterOutlet, TestComponent, PageNotFoundComponent,
   RouterLink, RouterLinkActive, MatToolbarModule, MatButtonModule, MatIconModule, //import any components
   CreatePage, HomePage, ShopPage,//import pages
-  NavbarCompnent, //import components
+  NavbarCompnent, FooterComponent //import components
 ], 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
